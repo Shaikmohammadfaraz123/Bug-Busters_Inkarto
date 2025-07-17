@@ -1,0 +1,80 @@
+15:42:00.281 [main] INFO  com.inkarto.stepDefinitions.LoginStepDefinition - Logged Into Home Page
+15:42:23.862 [main] INFO  com.inkarto.stepDefinitions.HomePageStepDefinition - Followers retrieved
+15:43:02.055 [main] INFO  com.inkarto.stepDefinitions.HomePageStepDefinition - Connect With Us Details Retrieved
+15:45:07.772 [main] INFO  com.inkarto.pages.URLsPage - Urls are written into Excel
+15:45:54.658 [main] INFO  com.inkarto.stepDefinitions.BinderClipsStepDefinition - BinderClips have been retrieved
+15:46:17.293 [main] INFO  com.inkarto.stepDefinitions.GlossyItemsStepDefinition - GlossyItems have been retrieved
+15:48:20.285 [main] INFO  com.inkarto.stepDefinitions.LoginStepDefinition - Logged Into Home Page
+15:49:05.363 [main] INFO  com.inkarto.stepDefinitions.HomePageStepDefinition - Followers retrieved
+15:49:42.935 [main] INFO  com.inkarto.stepDefinitions.HomePageStepDefinition - Connect With Us Details Retrieved
+15:51:28.627 [main] INFO  com.inkarto.pages.URLsPage - Urls are written into Excel
+15:52:15.907 [main] INFO  com.inkarto.stepDefinitions.BinderClipsStepDefinition - BinderClips have been retrieved
+15:52:37.269 [main] INFO  com.inkarto.stepDefinitions.GlossyItemsStepDefinition - GlossyItems have been retrieved
+15:53:01.607 [main] INFO  com.inkarto.stepDefinitions.LippanArtStepDefinition - LippanArts have been retrieved
+15:53:26.551 [main] INFO  com.inkarto.stepDefinitions.WishListStepDefinition - Wishlist items retrieved
+15:53:51.832 [main] INFO  com.inkarto.stepDefinitions.LoginStepDefinition - Logged Into Home Page
+15:54:09.673 [main] INFO  com.inkarto.stepDefinitions.HomePageStepDefinition - Followers retrieved
+15:54:50.044 [main] INFO  com.inkarto.stepDefinitions.HomePageStepDefinition - Connect With Us Details Retrieved
+15:56:03.225 [main] INFO  com.inkarto.pages.URLsPage - Urls are written into Excel
+15:56:50.908 [main] INFO  com.inkarto.stepDefinitions.BinderClipsStepDefinition - BinderClips have been retrieved
+15:57:12.174 [main] INFO  com.inkarto.stepDefinitions.GlossyItemsStepDefinition - GlossyItems have been retrieved
+15:58:08.858 [main] INFO  com.inkarto.stepDefinitions.WishListStepDefinition - Wishlist items retrieved
+17:09:19.974 [main] INFO  com.inkarto.stepDefinitions.LoginStepDefinition - Logged Into Home Page
+17:09:36.901 [main] INFO  com.inkarto.stepDefinitions.HomePageStepDefinition - Followers retrieved
+17:10:15.907 [main] INFO  com.inkarto.stepDefinitions.HomePageStepDefinition - Connect With Us Details Retrieved
+17:11:35.416 [main] INFO  com.inkarto.pages.URLsPage - Urls are written into Excel
+17:12:20.209 [main] INFO  com.inkarto.stepDefinitions.BinderClipsStepDefinition - BinderClips have been retrieved
+17:12:41.648 [main] INFO  com.inkarto.stepDefinitions.GlossyItemsStepDefinition - GlossyItems have been retrieved
+18:26:09.072 [main] INFO  com.inkarto.stepDefinitions.LippanArtStepDefinition - LippanArts have been retrieved
+18:29:07.329 [main] INFO  com.inkarto.stepDefinitions.LoginStepDefinition - Logged Into Home Page
+18:29:23.812 [main] INFO  com.inkarto.stepDefinitions.HomePageStepDefinition - Followers retrieved
+18:29:59.790 [main] INFO  com.inkarto.stepDefinitions.HomePageStepDefinition - Connect With Us Details Retrieved
+18:31:13.345 [main] INFO  com.inkarto.pages.URLsPage - Urls are written into Excel
+18:32:00.236 [main] INFO  com.inkarto.stepDefinitions.BinderClipsStepDefinition - BinderClips have been retrieved
+18:32:18.921 [main] INFO  com.inkarto.stepDefinitions.GlossyItemsStepDefinition - GlossyItems have been retrieved
+18:32:41.394 [main] INFO  com.inkarto.stepDefinitions.LippanArtStepDefinition - LippanArts have been retrieved
+18:33:01.514 [main] INFO  com.inkarto.stepDefinitions.WishListStepDefinition - Wishlist items retrieved
+18:33:24.168 [main] INFO  com.inkarto.stepDefinitions.LoginStepDefinition - Logged Into Home Page
+18:33:41.478 [main] INFO  com.inkarto.stepDefinitions.HomePageStepDefinition - Followers retrieved
+18:34:23.324 [main] INFO  com.inkarto.stepDefinitions.HomePageStepDefinition - Connect With Us Details Retrieved
+18:35:38.295 [main] INFO  com.inkarto.pages.URLsPage - Urls are written into Excel
+18:36:27.086 [main] INFO  com.inkarto.stepDefinitions.BinderClipsStepDefinition - BinderClips have been retrieved
+18:36:46.870 [main] INFO  com.inkarto.stepDefinitions.GlossyItemsStepDefinition - GlossyItems have been retrieved
+18:37:08.897 [main] INFO  com.inkarto.stepDefinitions.LippanArtStepDefinition - LippanArts have been retrieved
+18:37:33.972 [main] INFO  com.inkarto.stepDefinitions.WishListStepDefinition - Wishlist items retrieved
+09:17:52.017 [main] INFO  com.inkarto.stepDefinitions.LoginStepDefinition - Logged Into Home Page
+09:18:10.977 [main] INFO  com.inkarto.stepDefinitions.HomePageStepDefinition - Followers retrieved
+09:18:50.855 [main] INFO  com.inkarto.stepDefinitions.HomePageStepDefinition - Connect With Us Details Retrieved
+09:20:05.496 [main] INFO  com.inkarto.pages.URLsPage - Urls are written into Excel
+09:21:46.255 [main] INFO  com.inkarto.stepDefinitions.BinderClipsStepDefinition - BinderClips have been retrieved
+09:23:13.139 [main] INFO  com.inkarto.stepDefinitions.GlossyItemsStepDefinition - GlossyItems have been retrieved
+09:23:54.089 [main] INFO  com.inkarto.stepDefinitions.LippanArtStepDefinition - LippanArts have been retrieved
+09:24:24.276 [main] INFO  com.inkarto.stepDefinitions.WishListStepDefinition - Wishlist items retrieved
+09:24:56.325 [main] INFO  com.inkarto.stepDefinitions.LoginStepDefinition - Logged Into Home Page
+09:25:22.079 [main] INFO  com.inkarto.stepDefinitions.HomePageStepDefinition - Followers retrieved
+09:26:53.925 [main] INFO  com.inkarto.stepDefinitions.HomePageStepDefinition - Connect With Us Details Retrieved
+09:28:16.988 [main] INFO  com.inkarto.pages.URLsPage - Urls are written into Excel
+09:29:19.032 [main] INFO  com.inkarto.stepDefinitions.BinderClipsStepDefinition - BinderClips have been retrieved
+09:29:48.300 [main] INFO  com.inkarto.stepDefinitions.GlossyItemsStepDefinition - GlossyItems have been retrieved
+09:30:19.060 [main] INFO  com.inkarto.stepDefinitions.LippanArtStepDefinition - LippanArts have been retrieved
+09:30:50.204 [main] INFO  com.inkarto.stepDefinitions.WishListStepDefinition - Wishlist items retrieved
+09:48:13.352 [main] INFO  com.inkarto.stepDefinitions.LoginStepDefinition - Logged Into Home Page
+09:48:32.804 [main] INFO  com.inkarto.stepDefinitions.HomePageStepDefinition - Followers retrieved
+09:49:11.549 [main] INFO  com.inkarto.stepDefinitions.HomePageStepDefinition - Connect With Us Details Retrieved
+09:50:53.129 [main] INFO  com.inkarto.pages.URLsPage - Urls are written into Excel
+09:52:07.504 [main] INFO  com.inkarto.stepDefinitions.BinderClipsStepDefinition - BinderClips have been retrieved
+09:52:28.590 [main] INFO  com.inkarto.stepDefinitions.GlossyItemsStepDefinition - GlossyItems have been retrieved
+09:52:53.551 [main] INFO  com.inkarto.stepDefinitions.LippanArtStepDefinition - LippanArts have been retrieved
+09:53:18.599 [main] INFO  com.inkarto.stepDefinitions.WishListStepDefinition - Wishlist items retrieved
+09:53:43.919 [main] INFO  com.inkarto.stepDefinitions.LoginStepDefinition - Logged Into Home Page
+09:54:33.060 [main] INFO  com.inkarto.stepDefinitions.HomePageStepDefinition - Followers retrieved
+09:55:12.984 [main] INFO  com.inkarto.stepDefinitions.HomePageStepDefinition - Connect With Us Details Retrieved
+09:56:55.613 [main] INFO  com.inkarto.pages.URLsPage - Urls are written into Excel
+09:59:06.655 [main] INFO  com.inkarto.stepDefinitions.BinderClipsStepDefinition - BinderClips have been retrieved
+09:59:38.739 [main] INFO  com.inkarto.stepDefinitions.GlossyItemsStepDefinition - GlossyItems have been retrieved
+10:00:18.644 [main] INFO  com.inkarto.stepDefinitions.LippanArtStepDefinition - LippanArts have been retrieved
+10:01:22.030 [main] INFO  com.inkarto.stepDefinitions.WishListStepDefinition - Wishlist items retrieved
+15:09:19.815 [main] INFO  com.inkarto.stepDefinitions.BinderClipsStepDefinition - BinderClips have been retrieved
+15:09:43.941 [main] INFO  com.inkarto.stepDefinitions.BinderClipsStepDefinition - BinderClips have been retrieved
+10:30:16.787 [main] INFO  com.inkarto.stepDefinitions.BinderClipsStepDefinition - BinderClips have been retrieved
+10:32:47.332 [main] INFO  com.inkarto.stepDefinitions.BinderClipsStepDefinition - BinderClips have been retrieved

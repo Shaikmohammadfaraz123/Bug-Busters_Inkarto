@@ -1,0 +1,256 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/11/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jul 13 16:42:05 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2250 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.inkarto.testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.inkarto.testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Retrieving the Data for Connect with Inkarto", "User retrives the data from Inkarto"</td>
+<td><div><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1246238504", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1246238504'><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div></td>
+<td>0</td>
+<td>com.inkarto.testRunner.TestRunner@1b410b60</td></tr>
+<tr>
+<td title='com.inkarto.testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.inkarto.testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Retreiving the Glossy Sprays", "Retrieving the Glossy Sprays"</td>
+<td><div><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div><a href='#' onClick='toggleBox("stack-trace380556447", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace380556447'><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div></td>
+<td>0</td>
+<td>com.inkarto.testRunner.TestRunner@1b410b60</td></tr>
+<tr>
+<td title='com.inkarto.testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.inkarto.testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Retrieving Support Urls from Inkarto", "User retrives the data from Inkarto"</td>
+<td><div><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2091684862", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2091684862'><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div></td>
+<td>0</td>
+<td>com.inkarto.testRunner.TestRunner@1b410b60</td></tr>
+<tr>
+<td title='com.inkarto.testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.inkarto.testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Email for Lets get in Touch", "User retrives the data from Inkarto"</td>
+<td><div><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div><a href='#' onClick='toggleBox("stack-trace859279938", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace859279938'><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div></td>
+<td>0</td>
+<td>com.inkarto.testRunner.TestRunner@1b410b60</td></tr>
+<tr>
+<td title='com.inkarto.testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.inkarto.testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checking for presence of QilingPaper", "User retrives the data from Inkarto"</td>
+<td><div><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2063581529", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2063581529'><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div></td>
+<td>0</td>
+<td>com.inkarto.testRunner.TestRunner@1b410b60</td></tr>
+<tr>
+<td title='com.inkarto.testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.inkarto.testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Retrieving BinderClips", "Retrieving the BinderClips from Inkarto"</td>
+<td><div><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2098720336", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2098720336'><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div></td>
+<td>0</td>
+<td>com.inkarto.testRunner.TestRunner@1b410b60</td></tr>
+<tr>
+<td title='com.inkarto.testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.inkarto.testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Retrieving LippanArt Products", "Retrieving the products of LippanArt"</td>
+<td><div><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div><a href='#' onClick='toggleBox("stack-trace431097582", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace431097582'><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div></td>
+<td>0</td>
+<td>com.inkarto.testRunner.TestRunner@1b410b60</td></tr>
+<tr>
+<td title='com.inkarto.testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.inkarto.testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully get wishlist", "User get items in wishList"</td>
+<td><div><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1845746463", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1845746463'><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div></td>
+<td>0</td>
+<td>com.inkarto.testRunner.TestRunner@1b410b60</td></tr>
+<tr>
+<td title='com.inkarto.testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.inkarto.testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login to the Inkarto", "User logging into the Inkarto"</td>
+<td><div><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1829287142", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1829287142'><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div></td>
+<td>1</td>
+<td>com.inkarto.testRunner.TestRunner@1b410b60</td></tr>
+<tr>
+<td title='com.inkarto.testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.inkarto.testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Retrieving the Stationary", "User retrives the data from Inkarto"</td>
+<td><div><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1492431642", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1492431642'><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div></td>
+<td>0</td>
+<td>com.inkarto.testRunner.TestRunner@1b410b60</td></tr>
+<tr>
+<td title='com.inkarto.testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.inkarto.testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Retrieving Followers", "User retrives the data from Inkarto"</td>
+<td><div><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div><a href='#' onClick='toggleBox("stack-trace438092131", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace438092131'><pre>java.lang.RuntimeException: WebDriver setup failed
+	at com.inkarto.hooks.Hook.setUp(Hook.java:37)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.inkarto.utilities.DriverSetup.driverInstantiate(DriverSetup.java:62)
+	at com.inkarto.hooks.Hook.setUp(Hook.java:34)
+</pre></div></td>
+<td>0</td>
+<td>com.inkarto.testRunner.TestRunner@1b410b60</td></tr>
+</table><p>
+</body>
+</html>
