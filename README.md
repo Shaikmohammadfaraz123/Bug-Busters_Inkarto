@@ -172,7 +172,7 @@ For queries or collaboration, please reach out via your team’s communication c
 
 ---
  
-## 🚀 How to Run Locally
+## How to Run Locally
  
 1. Clone the repo: `git clone https://github.com/Shaikmohammadfaraz123/Bug-Busters_Inkarto.git`  
 2. Open the project in Eclipse or IntelliJ  
