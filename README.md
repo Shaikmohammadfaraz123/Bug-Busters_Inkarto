@@ -170,6 +170,12 @@ This code is intended for non-commercial, educational use only. It is not licens
 
 For queries or collaboration, please reach out via your team’s communication channels or through the project maintainers.
 
-## Git-Hub URL
-
-https://github.com/Shaikmohammadfaraz123/Bug-Busters_Inkarto.git
+---
+ 
+## 🚀 How to Run Locally
+ 
+1. Clone the repo: `git clone https://github.com/Shaikmohammadfaraz123/Bug-Busters_Inkarto.git`  
+2. Open the project in Eclipse or IntelliJ  
+3. Install dependencies via Maven: `mvn clean install`  
+4. Run tests using TestNG or Cucumber runner  
+5. Generate reports: `mvn allure:serve`  
